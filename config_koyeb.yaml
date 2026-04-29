@@ -14,6 +14,6 @@ tolgee:
     username: user@company.com
 spring:
   datasource:
-    url: "${DB_URL}"
-    username: "${DB_USER}"
-    password: "${DB_PASSWORD}"
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
