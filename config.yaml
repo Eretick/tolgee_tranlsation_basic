@@ -12,6 +12,8 @@ tolgee:
     port: 465
     ssl-enabled: true
     username: user@company.com
-
-  language-tool:
-    url: http://languagetool:8010
+spring:
+  datasource:
+    url: "${DB_URL}"
+    username: "${DB_USER}"
+    password: "${DB_PASSWORD}"
